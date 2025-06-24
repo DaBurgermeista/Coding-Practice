@@ -5,4 +5,4 @@ A collection of small projects to improve my understanding of full-stack web dev
 ## Projects
 
 - [Mood Selector](./mood-selector/) - A mood picker using DOM, CSS, and JS
-- More coming soon!
+- [Tip Calculator](./tip-calculator/) - A tip calculator

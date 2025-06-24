@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Expense Tracker</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<form action="" id="expense-form">
+			<div class="input-row">
+				<label>Expense:</label>
+				<input type="text" name="expenseName" id="expense-name" required />
+			</div>
+			<div class="input-row">
+				<label>Amount:</label>
+				<input
+					type="number"
+					name="expenseAmount"
+					id="expense-amount"
+					required
+				/>
+			</div>
+			<input type="submit" value="Add expense" />
+		</form>
+		<script src="./main.js"></script>
+	</body>
+</html>
