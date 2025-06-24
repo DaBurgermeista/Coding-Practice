@@ -1,0 +1,11 @@
+body {
+	background-color: rgb(180, 188, 196);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#buttons {
+	padding: 1rem;
+	scale: 2;
+}

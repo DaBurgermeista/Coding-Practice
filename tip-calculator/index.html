@@ -1,0 +1,34 @@
+<!-- tip-calculator/index.html -->
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Tip Calculator</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<form class="tip-calculator">
+			<div id="bill-container" class="input-row">
+				<label for="bill">Bill amount:</label>
+				<input type="number" id="bill" required />
+			</div>
+			<div id="tip-container" class="input-row">
+				<label for="tip">Tip percentage:</label>
+				<input type="number" id="tip" required />
+			</div>
+			<div class="input-row">
+				<label for="people">Number of people (optional)</label>
+				<input type="number" id="number-of-people" />
+			</div>
+			<input type="submit" id="calculate" value="Calculate" />
+		</form>
+		<br /><br />
+		<div id="output-container">
+			<div>Tip amount: <span id="tip-amount">-</span></div>
+			<div>Total: <span id="total">-</span></div>
+			<div>Per-Person: <span id="per-person">-</span></div>
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
